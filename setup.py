@@ -11,7 +11,9 @@ setup(name='twmn_mpd',
       install_requires=[
           'python-mpd2'
       ],
-      scripts=[
-          'mpd_twmn_notifier'
-      ],
+      entry_points={
+          'console_scripts': [
+              'mpd_twmn_notifier = twmn_mpd.TWMNSocketClient:start_notifs'
+          ]
+      },
       zip_safe=False)
