@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(name='twmn_mpd',
-      version='0.1.4',
+      version='0.1.5',
       description='A simple mpd notifier for twmn',
       url='http://github.com/mrkgnao/twmn-mpd',
       author='Soham Chowdhury',
